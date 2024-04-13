@@ -5,7 +5,7 @@
 let nums = [100, 200, 300, 400, 500];
 
 function pop(array) {
-    array.length = array.length - 1; //배열이 객체이므로 이렇게만 해도 함수 바깥에 영향을 미침
+  array.length = array.length - 1; // 배열이 객체이므로 가능
 }
 pop(nums);
 pop(nums);
