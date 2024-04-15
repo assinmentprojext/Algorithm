@@ -12,4 +12,8 @@
  } 
  */
 
-const arr = maxvalue([1, 2, 3, 4, 5]);
+const maxValue = Math.max(1, 2, 3, 4, 5);
+const minValue = Math.min(1, 2, 3, 4, 5);
+
+console.log("큰 값 :" + maxValue);
+console.log("작은 값 : " + minValue);
